@@ -4,7 +4,8 @@
 11. En pushant une erreur intentionnelle, le workflow de test retourne une erreur, comme attendu.
 12. En corrigeant l'erreur intentionnelle, les tests passent de nouveau.
 14. Après le push, on constate que les tests ont été run sur la matrice des versions de Python que nous avons donné. Chaque test a donc été lancé en Python 3.8, 3.9, et 3.10.
-18. Le Workflow de commentaires n'a pas été run 🤔
-21. Après avoir poussé ces modifications, le Workflow de badge n'a pas été run, et rien ne s'est passé 🤔
-24. Après avoir ajouté le workflow de Docker, rien ne se passe et le yml n'est pas lancé 🤔
-27. 
+_Remarque : Les workflows exécutés ont toujours été uniquement ceux de la branche en default._
+18. On remarque que dans une nouvelle branche, les workflows ne sont pas exécutés.
+19. Après avoir poussé ces modifications, le Workflow de badge a run mais ne semble pas avoir affecté correctement le README.
+24. Après avoir ajouté le workflow de Docker, le build Docker a fonctionné en s'étant bien lancé.
+27. Après avoir ajouté le workflow evaluate, il renvoie l'erreur suivante : Error: This request has been automatically failed because it uses a deprecated version of `actions/upload-artifact: v3`. Learn more: https://github.blog/changelog/2024-04-16-deprecation-notice-v3-of-the-artifact-actions/

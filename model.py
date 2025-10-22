@@ -1,4 +1,5 @@
 def predict_sentiment(text): 
+    '''A simple sentiment analysis function'''
     if not text: 
         return "neutral" 
     if "happy" in text.lower() or "good" in text.lower(): 

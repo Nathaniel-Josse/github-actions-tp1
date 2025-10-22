@@ -13,3 +13,4 @@ _Remarque : Les workflows exécutés ont toujours été uniquement ceux de la br
 33. On constate que le Workflow manuel peut être lancé directement depuis GitHub Actions.
 36. Dans l'onglet Releases, le tag apparaît désormais.
 38. On constate que cela renvoie la même erreur que 27. Le résultat attendu est probablement une constatation de la doc ?
+40. A la 2e exécution, les dépendances s'installent plus vite grâce au cache ?

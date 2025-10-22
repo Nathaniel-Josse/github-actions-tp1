@@ -4,3 +4,5 @@
 11. En pushant une erreur intentionnelle, le workflow de test retourne une erreur, comme attendu.
 12. En corrigeant l'erreur intentionnelle, les tests passent de nouveau.
 14. Après le push, on constate que les tests ont été run sur la matrice des versions de Python que nous avons donné. Chaque test a donc été lancé en Python 3.8, 3.9, et 3.10.
+18. Le Workflow de commentaires n'a pas été run 🤔
+19. 
